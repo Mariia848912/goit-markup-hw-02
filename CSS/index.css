@@ -1,0 +1,106 @@
+/* +цвет текста при наведении и части лого #2196F3; */
+/* +цвет текста заголовков #212121; */
+/* цвет текста героя и части лого в футере #FFFFFF; */
+/* +цвет  основного текста #757575; */
+/* цвет лого Studio в хедере #000000;*/
+/* цвет текста телефона и мыла в футере rgba(255, 255, 255, 0.6); */
+ /* +хедер и двух секций background: #FFFFFF; */
+ /* наша команда секция  background: #F5F4FA;*/
+ /* +секция герой и футер background: #2F303A; */ 
+ /* кнопки background #F5F4FA; */
+ :root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --color-white-text-bg:#FFFFFF;
+    --color-bg:#2F303A;
+    --color-button-bg:#F5F4FA;
+ }
+ body {
+    color: var(--primary-text-color);
+    background-color: var(--color-white-text-bg);
+ }
+.list {
+    list-style:none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Шапка сайту */
+
+.logo-header {
+    color: #000000;
+}
+
+.logo-color {
+    color: var(--accent-color);
+}
+
+.site-nav .link {
+color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+    
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+    color: var(--accent-color);
+}
+
+  /* Герой */
+  .hero-title {
+    color: var(--color-white-text-bg);
+    background-color: var(--color-bg);
+  }
+  .button {
+    color: var(--color-white-text-bg);
+    background-color: var(--accent-color);
+  }
+  /* Загальне для секцій */
+
+  .section-title {
+color: var(--title-text-color);
+  }
+
+  /* Переваги */
+  .advantage .title {
+    color: var(--title-text-color);
+  }
+
+  /* Наша команда */
+  .team .title {
+    color: var(--title-text-color);
+  }
+
+  /* Меін сторінки Портфоліо */
+  .buttons-menu .button {
+    color: var(--title-text-color);
+    background-color: var(--color-button-bg);
+  }
+
+   .buttons-menu .button:hover,
+   .buttons-menu .button:focus {
+       color: var(--color-white-text-bg);
+       background-color: var(--accent-color);
+   }
+
+   .portfolio .title {
+    color: var(--title-text-color);
+   }
+
+   /* Футер   */
+   .logo-footer {
+       color: var(--color-white-text-bg);
+   }
+
+   .footer {
+       background-color: var(--color-bg);
+   }
