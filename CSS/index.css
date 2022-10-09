@@ -19,7 +19,20 @@
  body {
     color: var(--primary-text-color);
     background-color: var(--color-white-text-bg);
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
  }
+ header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+ }
+
+ button {
+   font-family: inherit;
+ }
+
 .list {
     list-style:none;
 }
@@ -31,6 +44,11 @@ a {
 
 .logo-header {
     color: #000000;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;  
+    letter-spacing: 0.03em;
 }
 
 .logo-color {
@@ -54,20 +72,41 @@ color: var(--title-text-color);
 .contact-nav .link:focus {
     color: var(--accent-color);
 }
+.contact-nav .link {
+  color: var(--primary-text-color);
+}
 
   /* Герой */
   .hero-title {
     color: var(--color-white-text-bg);
     background-color: var(--color-bg);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
   }
   .button {
     color: var(--color-white-text-bg);
     background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
   }
   /* Загальне для секцій */
 
   .section-title {
 color: var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
   }
 
   /* Переваги */
@@ -99,8 +138,20 @@ color: var(--title-text-color);
    /* Футер   */
    .logo-footer {
        color: var(--color-white-text-bg);
+       font-family: Raleway, sans-serif;
    }
 
    .footer {
        background-color: var(--color-bg);
    }
+
+     .text>span {
+       text-decoration: overline;
+       text-transform: capitalize;
+     }
+    .list .address {
+      color: var(--color-white-text-bg);
+    }
+    .list-contact {
+      color: rgba(255, 255, 255, 0.6);
+    }
